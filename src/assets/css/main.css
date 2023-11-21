@@ -1,0 +1,13 @@
+@import './reset.css';
+@import './general.css';
+@import './vars.css';
+@import './media.css';
+
+
+@import './components/navigation.css';
+@import './components/header.css';
+@import './components/projects.css';
+@import './components/footer.css';
+@import './components/skills.css';
+@import './components/about.css';
+
