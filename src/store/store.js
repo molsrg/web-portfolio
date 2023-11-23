@@ -13,12 +13,20 @@ const store = new Vuex.Store ({
                 {
                     name: "Task Manager",
                     id: 1,
-                    link: 'https://github.com/molsrg/task-manager'
+                    link: 'https://github.com/molsrg/task-manager', 
+                    skills: 'Vue, Vuex, Vue-Router, Axios'
                 },
                 {
                     name: "Weather Forecast",
                     id: 2,
-                    link: 'https://github.com/molsrg/weather-forecast'
+                    link: 'https://github.com/molsrg/weather-forecast', 
+                    skills: 'Vue, Vuex, Vue-Router, Axios'
+                },
+                {
+                    name: "Freelance Exchange",
+                    id: 3,
+                    link: 'https://github.com/molsrg/freelance-exchange', 
+                    skills: 'Vue, Vuex, Vue-Router, Axios, Vue-Carousel'
                 },
             ],
             aboutMe: [
