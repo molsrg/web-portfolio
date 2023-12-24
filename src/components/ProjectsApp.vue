@@ -8,7 +8,7 @@
                     v-for="project in ALL_PROJECTS"
                     :key="project.id"
                 >
-                    <router-link :to="'/project/' + project.id">
+                    <router-link :to="'/web-portfolio/project/' + project.id">
                         <img
                             class="project__img"
                             :src="

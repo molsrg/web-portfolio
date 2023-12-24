@@ -5,29 +5,38 @@ const store = new Vuex.Store ({
         return {
             projects: [
                 {
-                    name: "Movie Seeker",
+                    name: "Working Stopwatch",
                     id: 0,
+                    link: 'https://github.com/molsrg/working-stopwatch', 
+                    skills: 'Vue(Composition API), Pinia, i18n'
+                },
+                {
+                    name: "Freelance Exchange",
+                    id: 1,
+                    link: 'https://github.com/molsrg/freelance-exchange', 
+                    skills: 'Vue, Vuex, Vue-Router, Axios, Vue-Carousel'
+                },
+
+                {
+                    name: "Movie Seeker",
+                    id: 2,
                     link: 'https://github.com/molsrg/movie-seeker', 
                     skills: 'Vue, Vuex, Vue-Router, Axios'
                 },
+
                 {
                     name: "Task Manager",
-                    id: 1,
+                    id: 3,
                     link: 'https://github.com/molsrg/task-manager', 
                     skills: 'Vue, Vuex, Vue-Router, Axios'
                 },
                 {
                     name: "Weather Forecast",
-                    id: 2,
+                    id: 4,
                     link: 'https://github.com/molsrg/weather-forecast', 
                     skills: 'Vue, Vuex, Vue-Router, Axios'
                 },
-                {
-                    name: "Freelance Exchange",
-                    id: 3,
-                    link: 'https://github.com/molsrg/freelance-exchange', 
-                    skills: 'Vue, Vuex, Vue-Router, Axios, Vue-Carousel'
-                },
+
             ],
             aboutMe: [
                 {title: 'My experience', description: 'I have more than 2 years of experience in web development and have been interested in programming for more than 4 years. I have successfully completed many projects that involve creating modern and adaptive interfaces using Vue.js, HTML, CSS and JavaScript. My goal is to provide users with ease of use and a unique design.'}, 

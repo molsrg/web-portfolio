@@ -2,7 +2,7 @@
     <nav class="nav">
         <div class="container">
             <div class="nav-row">
-                <router-link class="logo" to="/"><strong>Developer</strong> portfolio</router-link>  
+                <router-link class="logo" to="/web-portfolio/"><strong>Developer</strong> portfolio</router-link>  
 
                 <button
                     @click="changeApplicationTheme"
@@ -26,14 +26,14 @@
 
                 <ul class="nav-list">
                     <li class="nav-list__item">
-                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/' }" to="/">Projects</router-link>
+                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/web-portfolio/' }" to="/web-portfolio/">Projects</router-link>
 
                     </li>
                     <li class="nav-list__item">
-                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/skills' }" to="/skills">Skills</router-link>
+                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/web-portfolio/skills' }" to="/web-portfolio/skills">Skills</router-link>
                     </li>
                     <li class="nav-list__item">
-                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/about' }" to="/about">About Me</router-link>
+                        <router-link class="nav-list__link" :class="{ 'nav-list__link--active': $route.path === '/web-portfolio/about' }" to="/web-portfolio/about">About Me</router-link>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@ export default {
                 this.theme = "light";
                 document.body.classList.remove('dark')
             }
-            localStorage.setItem("ApplicationTheme", this.theme);
+                localStorage.setItem("ApplicationTheme", this.theme);
 
         },
     },

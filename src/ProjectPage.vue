@@ -14,7 +14,7 @@
                 </div>
 
 
-                <a class="btn-outline" :href="PROJECT_IDX.link">
+                <a class="btn-outline" :href="PROJECT_IDX.link" target="_blank">
                     <img src="./assets/image/icons/gitHub-black.svg" alt="">
                     GitHub Repo
                 </a>

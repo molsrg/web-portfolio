@@ -6,22 +6,22 @@ import ProjectPage from './../ProjectPage.vue'
 
 const routes = [
     {
-        path:'/',
+        path:'/web-portfolio/',
         name:'Home',
         component: Home,
     },
     {
-        path:'/skills',
+        path:'/web-portfolio/skills',
         name:'Skills',
         component: Skills,
     },
     {
-        path:'/about',
+        path:'/web-portfolio/about',
         name:'AboutMe',
         component: AboutMe,
     },
     {
-        path:'/project/:idx?',
+        path:'/web-portfolio/project/:idx?',
         name:'ProjectPage',
         component: ProjectPage,
         props: true 
