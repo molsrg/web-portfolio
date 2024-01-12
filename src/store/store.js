@@ -33,7 +33,7 @@ const store = new Vuex.Store ({
                 {
                     name: "Weather Forecast",
                     id: 4,
-                    link: 'https://github.com/molsrg/weather-forecast', 
+                    link: 'https://github.com/molsrg/weather-app-v.2', 
                     skills: 'Vue, Vuex, Vue-Router, Axios'
                 },
 
